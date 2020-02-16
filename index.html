@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PR Apps Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navigation bar starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="./prahlad_circle.png" width="30" height="30" class="d-inline-block align-top" alt="">&nbsp;
+            PR Apps Store
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <!-- Navigation bar ends -->
+    <br />
+
+    <!-- card section starts -->
+    <div class="container myPadd">
+        <div class="row">
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp1"
+                style="width: 18rem;">
+                <br />
+                <img src="images/code.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <div class="card-body">
+                    <h5 class="card-title">PR Code Editor</h5>
+                    <p class="card-text">PR Code Editor app is used to compile HTML, CSS, JavaScript and HTML-Canvas.
+                    </p>
+                    <a href="apps/PR Code Editor.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
+                            aria-hidden="true"></i>
+                        Download the app</a>
+                    <button onclick="removeComp1()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                            aria-hidden="true"></i>
+                        Not interested</button>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3 mr-1" id="comp2"
+                style="width: 18rem;">
+                <br />
+                <img src="images/browv1.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <div class="card-body">
+                    <h5 class="card-title">PR Browser v1</h5>
+                    <p class="card-text">PR Browser app is the basic version of browser with minimal features.</p>
+                    <a href="apps/PR Browser.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
+                            aria-hidden="true"></i>
+                        Download the app</a>
+                    <button onclick="removeComp2()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                            aria-hidden="true"></i>
+                        Not interested</button>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp3"
+                style="width: 18rem;">
+                <br />
+                <img src="images/browv2.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <div class="card-body">
+                    <h5 class="card-title">PR Browser v2</h5>
+                    <p class="card-text">PR Browser 2 app is the browser app the can be used to give inputs via voice
+                    </p>
+                    <a href="apps/PR_Browser_v2.2.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
+                            aria-hidden="true"></i>
+                        Download the app</a>
+                    <button onclick="removeComp3()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                            aria-hidden="true"></i> Not interested</button>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp4"
+                style="width: 18rem;">
+                <br />
+                <img src="images/weather.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <div class="card-body">
+                    <h5 class="card-title">PR Weather</h5>
+                    <p class="card-text">PR Weather app is the app that shows the beautiful Weather of Hyderabad.</p>
+                    <a href="apps/PR Weather.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
+                            aria-hidden="true"></i>
+                        Download the app</a>
+                    <button onclick="removeComp4()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                            aria-hidden="true"></i> Not interested</button>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp5"
+                style="width: 18rem;">
+                <br />
+                <img src="images/recog.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <div class="card-body">
+                    <h5 class="card-title">PR Face Recognition</h5>
+                    <p class="card-text">PR Face Recognition app is the app that recognises the smile in your face and
+                        shows in percentage.</p>
+                    <a href="apps/PR_Smile_Detection.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
+                            aria-hidden="true"></i>
+                        Download the app</a>
+                    <button onclick="removeComp5()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                            aria-hidden="true"></i> Not interested</button>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp6"
+                style="width: 18rem;">
+                <br />
+                <img src="images/pomo.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <div class="card-body">
+                    <h5 class="card-title">PR Pomodoro</h5>
+                    <p class="card-text">PR Pomodoro app is the app that works exactly as a pomodoro but in digital
+                        form(Application form).</p>
+                    <a href="apps/Pomodoro.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
+                            aria-hidden="true"></i>
+                        Download the app</a>
+                    <button onclick="removeComp6()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                            aria-hidden="true"></i> Not interested</button>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp7"
+                style="width: 18rem;">
+                <br />
+                <img src="images/widget.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <div class="card-body">
+                    <h5 class="card-title">PR Widgetifire</h5>
+                    <p class="card-text">PR Widgetifire app is the app that can add nice and cool looking widgets with
+                        some text.</p>
+                    <a href="apps/PR Widgetifire.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
+                            aria-hidden="true"></i>
+                        Download the app</a>
+                    <button onclick="removeComp7()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                            aria-hidden="true"></i> Not interested</button>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp8"
+                style="width: 18rem;">
+                <br />
+                <img src="images/voice.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <div class="card-body">
+                    <h5 class="card-title">PR Voice</h5>
+                    <p class="card-text">PR Voice app is the app that can convert your sweet voice into text and many other stuff.</p>
+                    <a href="apps/PR Voice.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
+                            aria-hidden="true"></i>
+                        Download the app</a>
+                    <button onclick="removeComp8()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                            aria-hidden="true"></i> Not interested</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- cards section end -->
+
+    <!-- footer section starts -->
+    <div class="container-fluid bottom-footer fixed-bottom">
+        <div class="row">
+            <div class="col-12 bg-dark text-white text-center">
+                <p>Copyright © 2020 - All rights reserved </p>
+            </div>
+        </div>
+    </div>
+    <!-- footer section ends -->
+
+    <script>
+        function removeComp1() {
+            document.getElementById("comp1").style.display = "none";
+        };
+        function removeComp2() {
+            document.getElementById("comp2").style.display = "none";
+        };
+        function removeComp3() {
+            document.getElementById("comp3").style.display = "none";
+        };
+        function removeComp4() {
+            document.getElementById("comp4").style.display = "none";
+        };
+        function removeComp5() {
+            document.getElementById("comp5").style.display = "none";
+        };
+        function removeComp6() {
+            document.getElementById("comp6").style.display = "none";
+        };
+        function removeComp7() {
+            document.getElementById("comp7").style.display = "none";
+        };
+        function removeComp8() {
+            document.getElementById("comp8").style.display = "none";
+        };
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
