@@ -31,6 +31,24 @@
     <!-- card section starts -->
     <div class="container myPadd">
         <div class="row">
+            <!-- card one -->
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp0"
+                style="width: 18rem;">
+                <br />
+                <img src="images/color.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <div class="card-body">
+                    <h5 class="card-title">PR Color Picker</h5>
+                    <p class="card-text">PR Color Picker app is used to select the best color to your project
+                    </p>
+                    <a href="apps/PR_Color_Picker.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
+                            aria-hidden="true"></i>
+                        Download the app</a>
+                    <button onclick="removeComp0()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                            aria-hidden="true"></i>
+                        Not interested</button>
+                </div>
+            </div>
+            <!-- card two -->
             <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp1"
                 style="width: 18rem;">
                 <br />
@@ -167,6 +185,9 @@
     <!-- footer section ends -->
 
     <script>
+        function removeComp0() {
+            document.getElementById("comp0").style.display = "none";
+        };
         function removeComp1() {
             document.getElementById("comp1").style.display = "none";
         };
