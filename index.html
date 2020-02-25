@@ -10,6 +10,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 </head>
 
 <body>
@@ -32,10 +33,10 @@
     <div class="container myPadd">
         <div class="row">
             <!-- card one -->
-            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp0"
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3 card1" id="comp0"
                 style="width: 18rem;">
                 <br />
-                <img src="images/color.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <img src="images/color.png" class="card-img-top rndborder img1" alt="Placed a nice image here">
                 <div class="card-body">
                     <h5 class="card-title">PR Color Picker</h5>
                     <p class="card-text">PR Color Picker app is used to select the best color to your project
@@ -43,16 +44,16 @@
                     <a href="apps/PR_Color_Picker.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
                             aria-hidden="true"></i>
                         Download the app</a>
-                    <button onclick="removeComp0()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                    <button onclick="removeComp0()" class="btn btn-danger btn-block comp0"><i class="fa fa-ban"
                             aria-hidden="true"></i>
                         Not interested</button>
                 </div>
             </div>
             <!-- card two -->
-            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp1"
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3 card2" id="comp1"
                 style="width: 18rem;">
                 <br />
-                <img src="images/code.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <img src="images/code.png" class="card-img-top rndborder img2" alt="Placed a nice image here">
                 <div class="card-body">
                     <h5 class="card-title">PR Code Editor</h5>
                     <p class="card-text">PR Code Editor app is used to compile HTML, CSS, JavaScript and HTML-Canvas.
@@ -60,30 +61,30 @@
                     <a href="apps/PR Code Editor.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
                             aria-hidden="true"></i>
                         Download the app</a>
-                    <button onclick="removeComp1()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                    <button onclick="removeComp1()" class="btn btn-danger btn-block comp1"><i class="fa fa-ban"
                             aria-hidden="true"></i>
                         Not interested</button>
                 </div>
             </div>
-            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3 mr-1" id="comp2"
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3 mr-1 card3" id="comp2"
                 style="width: 18rem;">
                 <br />
-                <img src="images/browv1.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <img src="images/browv1.png" class="card-img-top rndborder img3" alt="Placed a nice image here">
                 <div class="card-body">
                     <h5 class="card-title">PR Browser v1</h5>
                     <p class="card-text">PR Browser app is the basic version of browser with minimal features.</p>
                     <a href="apps/PR Browser.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
                             aria-hidden="true"></i>
                         Download the app</a>
-                    <button onclick="removeComp2()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                    <button onclick="removeComp2()" class="btn btn-danger btn-block comp2"><i class="fa fa-ban"
                             aria-hidden="true"></i>
                         Not interested</button>
                 </div>
             </div>
-            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp3"
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3 card4" id="comp3"
                 style="width: 18rem;">
                 <br />
-                <img src="images/browv2.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <img src="images/browv2.png" class="card-img-top rndborder img4" alt="Placed a nice image here">
                 <div class="card-body">
                     <h5 class="card-title">PR Browser v2</h5>
                     <p class="card-text">PR Browser 2 app is the browser app the can be used to give inputs via voice
@@ -91,28 +92,28 @@
                     <a href="apps/PR_Browser_v2.2.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
                             aria-hidden="true"></i>
                         Download the app</a>
-                    <button onclick="removeComp3()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                    <button onclick="removeComp3()" class="btn btn-danger btn-block comp3"><i class="fa fa-ban"
                             aria-hidden="true"></i> Not interested</button>
                 </div>
             </div>
-            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp4"
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3 card5" id="comp4"
                 style="width: 18rem;">
                 <br />
-                <img src="images/weather.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <img src="images/weather.png" class="card-img-top rndborder img5" alt="Placed a nice image here">
                 <div class="card-body">
                     <h5 class="card-title">PR Weather</h5>
                     <p class="card-text">PR Weather app is the app that shows the beautiful Weather of Hyderabad.</p>
                     <a href="apps/PR Weather.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
                             aria-hidden="true"></i>
                         Download the app</a>
-                    <button onclick="removeComp4()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                    <button onclick="removeComp4()" class="btn btn-danger btn-block comp4"><i class="fa fa-ban"
                             aria-hidden="true"></i> Not interested</button>
                 </div>
             </div>
-            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp5"
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3 card6" id="comp5"
                 style="width: 18rem;">
                 <br />
-                <img src="images/recog.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <img src="images/recog.png" class="card-img-top rndborder img6" alt="Placed a nice image here">
                 <div class="card-body">
                     <h5 class="card-title">PR Face Recognition</h5>
                     <p class="card-text">PR Face Recognition app is the app that recognises the smile in your face and
@@ -120,14 +121,14 @@
                     <a href="apps/PR_Smile_Detection.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
                             aria-hidden="true"></i>
                         Download the app</a>
-                    <button onclick="removeComp5()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                    <button onclick="removeComp5()" class="btn btn-danger btn-block comp5"><i class="fa fa-ban"
                             aria-hidden="true"></i> Not interested</button>
                 </div>
             </div>
-            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp6"
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3 card7" id="comp6"
                 style="width: 18rem;">
                 <br />
-                <img src="images/pomo.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <img src="images/pomo.png" class="card-img-top rndborder img7" alt="Placed a nice image here">
                 <div class="card-body">
                     <h5 class="card-title">PR Pomodoro</h5>
                     <p class="card-text">PR Pomodoro app is the app that works exactly as a pomodoro but in digital
@@ -135,14 +136,14 @@
                     <a href="apps/Pomodoro.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
                             aria-hidden="true"></i>
                         Download the app</a>
-                    <button onclick="removeComp6()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                    <button onclick="removeComp6()" class="btn btn-danger btn-block comp6"><i class="fa fa-ban"
                             aria-hidden="true"></i> Not interested</button>
                 </div>
             </div>
-            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp7"
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3 card8" id="comp7"
                 style="width: 18rem;">
                 <br />
-                <img src="images/widget.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <img src="images/widget.png" class="card-img-top rndborder img8" alt="Placed a nice image here">
                 <div class="card-body">
                     <h5 class="card-title">PR Widgetifire</h5>
                     <p class="card-text">PR Widgetifire app is the app that can add nice and cool looking widgets with
@@ -150,21 +151,22 @@
                     <a href="apps/PR Widgetifire.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
                             aria-hidden="true"></i>
                         Download the app</a>
-                    <button onclick="removeComp7()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                    <button onclick="removeComp7()" class="btn btn-danger btn-block comp7"><i class="fa fa-ban"
                             aria-hidden="true"></i> Not interested</button>
                 </div>
             </div>
-            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3" id="comp8"
+            <div class="card col-lg-3 col-sm-6 col-xs-12 bg-dark text-white mx-auto mb-3 card9" id="comp8"
                 style="width: 18rem;">
                 <br />
-                <img src="images/voice.png" class="card-img-top rndborder" alt="Placed a nice image here">
+                <img src="images/voice.png" class="card-img-top rndborder img9" alt="Placed a nice image here">
                 <div class="card-body">
                     <h5 class="card-title">PR Voice</h5>
-                    <p class="card-text">PR Voice app is the app that can convert your sweet voice into text and many other stuff.</p>
+                    <p class="card-text">PR Voice app is the app that can convert your sweet voice into text and many
+                        other stuff.</p>
                     <a href="apps/PR Voice.apk" class="btn btn-warning btn-block"><i class="fa fa-download"
                             aria-hidden="true"></i>
                         Download the app</a>
-                    <button onclick="removeComp8()" class="btn btn-danger btn-block"><i class="fa fa-ban"
+                    <button onclick="removeComp8()" class="btn btn-danger btn-block comp8"><i class="fa fa-ban"
                             aria-hidden="true"></i> Not interested</button>
                 </div>
             </div>
@@ -183,8 +185,9 @@
         </div>
     </div>
     <!-- footer section ends -->
-
-    <script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!-- <script>
         function removeComp0() {
             document.getElementById("comp0").style.display = "none";
         };
@@ -212,6 +215,65 @@
         function removeComp8() {
             document.getElementById("comp8").style.display = "none";
         };
+    </script> -->
+    <script>
+        $(".img1").click(function() {
+            $(".card1").effect( "shake" );
+        });
+        $(".img2").click(function() {
+            $(".card2").effect( "shake" );
+        });
+        $(".img3").click(function() {
+            $(".card3").effect( "shake" );
+        });
+        $(".img4").click(function() {
+            $(".card4").effect( "shake" );
+        });
+        $(".img5").click(function() {
+            $(".card5").effect( "shake" );
+        });
+        $(".img6").click(function() {
+            $(".card6").effect( "shake" );
+        });
+        $(".img7").click(function() {
+            $(".card7").effect( "shake" );
+        });
+        $(".img8").click(function() {
+            $(".card8").effect( "shake" );
+        });
+        $(".img9").click(function() {
+            $(".card9").effect( "shake" );
+        })
+    </script>
+    <!-- JQUERY Code FadeOut Animation -->
+    <script>
+        $(".comp0").click(function () {
+            $("#comp0").fadeOut(2000);
+        });
+        $(".comp1").click(function () {
+            $("#comp1").fadeOut(2000);
+        });
+        $(".comp2").click(function () {
+            $("#comp2").fadeOut(2000);
+        });
+        $(".comp3").click(function () {
+            $("#comp3").fadeOut(2000);
+        });
+        $(".comp4").click(function () {
+            $("#comp4").fadeOut(2000);
+        });
+        $(".comp5").click(function () {
+            $("#comp5").fadeOut(2000);
+        });
+        $(".comp6").click(function () {
+            $("#comp6").fadeOut(2000);
+        });
+        $(".comp7").click(function () {
+            $("#comp7").fadeOut(2000);
+        });
+        $(".comp8").click(function () {
+            $("#comp8").fadeOut(2000);
+        });
     </script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
